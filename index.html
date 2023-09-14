@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <template id="template">
+      <h5 class="card-title city" id="city"></h5>
+      <p class="card-text date" id="date"></p>
+      <div class="weather-box">
+        <p class="weather-text temp" id="temp"></p>
+        <p class="weather-text windSpeed" id="windSpeed"></p>
+      </div>
+      <p class="card-text main" id="main">Clear</p>
+    </template>
+
+    <main>
+      <form id="form" class="form">
+        <input type="text" class="search" placeholder="Find out more..." />
+        <img class="mic" src="/microphone-svgrepo-com.svg" alt="microphone" />
+      </form>
+
+      <div class="card"></div>
+    </main>
+    <script src="/main.js"></script>
+  </body>
+</html>

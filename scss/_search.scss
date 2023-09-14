@@ -1,0 +1,37 @@
+input {
+  outline: navajowhite;
+}
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+
+  position: relative;
+}
+.search {
+  width: 100%;
+  height: 50px;
+  padding: 0 60px 0 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  font-size: 25px;
+
+  color: var(--main-collor);
+
+  background-color: rgb(255, 255, 255, 0.3);
+}
+.mic {
+  position: absolute;
+  left: 92%;
+  top: 35%;
+
+  cursor: pointer;
+}
+.search::-webkit-input-placeholder {
+  color: var(--main-collor);
+  opacity: 0.5;
+}
