@@ -15,12 +15,12 @@ const template = getElement("#template").content;
 
 class Weather {
   changeBg(condition) {
-    document.body.style.backgroundImage = `url("https://cdn.kimkim.com/files/a/content_articles/featured_photos/8ae6b5357f5cf29da8fdc119435ec36f98fa0543/original-897975b9089b200fb8c6551aa2d47365.jpg")`;
     if (condition === "Clear") {
+      document.body.style.backgroundImage = `url("../clear.jpg")`;
     } else if (condition === "Rain") {
-      document.body.style.backgroundImage = `url("https://www.mkgifs.com/wp-content/uploads/2022/04/havy-rain.gif")`;
+      document.body.style.backgroundImage = `url("../havy-rain.gif")`;
     } else if (condition === "Clouds") {
-      document.body.style.backgroundImage = `url("https://i.pinimg.com/originals/1e/b4/0e/1eb40e8f6c568d75f45bcb41ad97bdf9.gif")`;
+      document.body.style.backgroundImage = `url("../clouds.gif")`;
     } else if (condition === "Snow") {
       document.body.style.backgroundImage = `url("https://i.gifer.com/Mhx.gif")`;
     }
